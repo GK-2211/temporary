@@ -1,44 +1,51 @@
-<form class="row g-3">
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Password</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress2" class="form-label">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="col-md-6">
-      <label for="inputCity" class="form-label">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">State</label>
-      <select id="inputState" class="form-select">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label for="inputZip" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.component.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form action="">
+      <div class="title">
+        <h2>CONTACT US</h2>
+        <h6 >Questions not answer yet We are here for you!!</h6>
+        <br>
       </div>
-    </div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </div>
-  </form>
+      <div class="half">
+        <div class="item">
+          <label for="name">NAME</label>
+          <input type="text" id = "name">
+        </div>
+        <div class="item">
+          <label for="email">EMAIL</label>
+          <input type="text" id = "email">
+        </div>
+      </div>
+      <div class="full">
+        <label for="message">MESSAGE</label>
+        <textarea name="" id = "message"></textarea>
+      </div>
+      <div class="action">
+        <input type="submit" value = "SUBMIT">
+        <input type="reset" value = "RESET">
+      </div>
+      <div class="address">
+        <a href="#">triple.plug.share@gmail.com</a>
+        <p>Jabalpur</p> 
+        <p>Madhya Pradesh, Bharat</p> 
+      </div>
+      <div class="icons">
+        <a href="" class = "fa fa-twitter"></a>
+        <a href="" class = "fa fa-facebook"></a>
+        <a href="" class = "fa fa-instagram"></a>
+        <a href="" class = "fa fa-github"></a>
+      </div>
+    </form>
+  </body>
+</html>
