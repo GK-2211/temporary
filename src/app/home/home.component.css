@@ -125,4 +125,13 @@
   #target {
     width: 345px;
   }
+
+  #feedback:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .nav-comp{
+    font-family: nunito , sans-serif;
+  }
   

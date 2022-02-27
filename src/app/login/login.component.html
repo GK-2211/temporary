@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EV Power Station</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-    <!--link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EV Power Station</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <!--link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /-->
 
 </head>
 
@@ -16,7 +16,7 @@
 
 
 <header class="text-gray-600 body-font">
-    <div  style="background-color: #111827;" class="
+  <div style="background-color: #111827;" class="
             container
             mx-auto
             flex flex-wrap
@@ -25,7 +25,7 @@
             md:flex-row
             items-center
           ">
-        <a class="
+    <a class="
               flex
               title-font
               font-medium
@@ -34,159 +34,100 @@
               mb-4
               md:mb-0
             ">
-            <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-20 h-20 text-white p-2  rounded-full" src="../assets/image/logo1.gif">
+      <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        class="w-20 h-20 text-white p-2  rounded-full" src="../assets/image/logo1.gif">
 
 
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
 
 
-            </svg>
+      </svg>
 
-            <span style="font-size: x-large; text-decoration: solid" class="ml-3 text-xl">Triple Plug Share</span>
-        </a>
-        <nav class="
+      <span style="font-size: x-large; text-decoration: solid;font-family: 'Oswald', sans-serif;color: #ffffff;"
+        class="ml-3 text-xl">Triple Plug Share</span>
+    </a>
+    <nav class="
               md:ml-auto
               flex flex-wrap
               items-center
               text-base
               justify-center
             ">
-            <a class="mr-5 hover:text-gray-900" href="/home">Home</a>
-            <a class="mr-5 hover:text-gray-900" href="/about">About</a>
-            <a class="mr-5 hover:text-gray-900" href="/contact">Contact</a>
-            <a class="mr-5 hover:text-gray-900" style="cursor: pointer;" (click)="onClick('div_feedback')">Feedback</a>
+      <a style="color: #ffffff;font-family: 'Nunito', sans-serif;" class="mr-5 hover:text-gray-900"
+        href="/home">Home</a>
 
-        </nav>
-        <button class="
-              inline-flex
-              items-center
-              bg-yellow-400
-              border-0
-              py-1
-              px-3
-              focus:outline-none
-              hover:bg-green-500
-              rounded
-              text-base
-              mt-4
-              md:mt-0
-            ">
-            <!--svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="0"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg-->
-            <a href="login">Login</a>
-        </button>
-        <button id="space" class=" 
-             margin-left : 10px
-             inline-flex
-              items-center
-              bg-yellow-400
-              border-0
-              py-1
-              px-3
-              focus:outline-none
-              hover:bg-green-500
-              rounded
-              text-base
-              mt-4
-              md:mt-0
-            ">
-            <!--svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="0"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg-->
-            <a href="/signup">Register</a>
-        </button>
-    </div>
+      <a style="color: #ffffff;font-family: 'Nunito', sans-serif;" class="mr-5 hover:text-gray-900"
+        href="/contact">Contact</a>
 
-    <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto" >
-        <div style="width: 1000px; margin-left: 200px;">
-            <div class="row d-flex">
-                <div class="col-lg-6">
-                    <div class="card1 bg-light pb-5" style="padding-bottom: 0 !important;">
-                        
-                        <div class="row px-3 justify-content-center mt-4 mb-5"> <img 
-                            style="width : 400px; height : 400px;"
-                          src="https://navbharattimes.indiatimes.com/photo/msid-86340944,imgsize-343487/pic.jpg" class="image"> </div>
-                       
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card2 card border-0 px-4 py-5">
-                        <h3 class="mb-1"><b>Login to your Account</b></h3>
-                        <p class="mb-4 text-sm">Don't have an account? <a class="text-primary login" href="signup">Sign Up</a></p>
-                        
-                        <div class="row">
-                          <div class="col-sm-6">
-                              <p class="google"><span class="fa fa-google"></span><small class="pl-3 pr-1">Login
-                                      with google</small></p>
-                          </div>
-                          <div class="col-sm-6">
-                              <p class="fb"><span class="fa fa-facebook"></span><small class="pl-3 pr-1">Login with
-                                      facebook</small></p>
-                          </div>
-                      </div>
-                      <div class="row px-3">
-                          <div class="line"></div> <small class="text-muted or text-center">OR</small>
-                          <div class="line"></div>
-                      </div>
-                                  
-                        <div class="row px-3"> <label class="mb-0">
-                                <h6 class="mb-0 text-sm">Email Address</h6>
-                            </label> <input type="text" name="email"> </div>
-                        <div class="row px-3"> <label class="mb-0">
-                                <h6 class="mb-0 text-sm">Password</h6>
-                            </label> <input type="password" name="password"> </div>
-                           
-                        <div class="row mb-6">
-                          
-                            <div class="col-md-4"> <button class="btn btn-blue text-center mb-1">Sign In</button>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
+    </nav>
+    <button type="button" class="btn btn-outline-light">
+      <a style="font-family: 'Nunito', sans-serif;" href="login">Login/Sign Up</a>
+    </button>
+  </div>
+
+  <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div style="width: 1000px; margin-left: 200px;">
+      <div class="row d-flex">
+        <div class="col-lg-6">
+          <div class="card1 bg-light pb-5" style="padding-bottom: 0 !important;">
+
+            <div class="row px-3 justify-content-center mt-4 mb-5"> <img style="width : 400px; height : 400px;"
+                src="https://navbharattimes.indiatimes.com/photo/msid-86340944,imgsize-343487/pic.jpg" class="image">
             </div>
+
+          </div>
         </div>
+        <div class="col-lg-6">
+          <div class="card2 card border-0 px-4 py-5">
+            <h3 class="mb-1"><b>Login to your Account</b></h3>
+            <p class="mb-4 text-sm">Don't have an account? <a class="text-primary login" href="signup">Sign Up</a></p>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="google"><span class="fa fa-google"></span><small class="pl-3 pr-1">Login
+                    with google</small></p>
+              </div>
+              <div class="col-sm-6">
+                <p class="fb"><span class="fa fa-facebook"></span><small class="pl-3 pr-1">Login with
+                    facebook</small></p>
+              </div>
+            </div>
+            <div class="row px-3">
+              <div class="line"></div> <small class="text-muted or text-center">OR</small>
+              <div class="line"></div>
+            </div>
+
+            <div class="row px-3"> <label class="mb-0">
+                <h6 class="mb-0 text-sm">Email Address</h6>
+              </label> <input type="text" name="email"> </div>
+            <div class="row px-3"> <label class="mb-0">
+                <h6 class="mb-0 text-sm">Password</h6>
+              </label> <input type="password" name="password"> </div>
+
+            <div class="row mb-6">
+
+              <div class="col-md-4"> <button class="btn btn-blue text-center mb-1">Sign In</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
 
 
-    <section class="text-gray-600 body-font relative">
-        <div id="div_feedback">
-       <div class="absolute inset-0 bg-gray-300">
-         <iframe
-           width="100%"
-           height="100%"
-           frameborder="0"
-           marginheight="0"
-           marginwidth="0"
-           title="map"
-           scrolling="no"
-           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117371.05679943635!2d79.89871232112424!3d23.175837426261996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae1a0fb6a97d%3A0x44020616bc43e3b9!2sJabalpur%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1633264234047!5m2!1sen!2sin"
-           style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
-         ></iframe>
-       </div>
-       <div class="container px-5 py-24 mx-auto flex">
-         <div
-           class="
+  <section class="text-gray-600 body-font relative">
+    <div id="div_feedback">
+      <div class="absolute inset-0 bg-gray-300">
+        <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117371.05679943635!2d79.89871232112424!3d23.175837426261996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae1a0fb6a97d%3A0x44020616bc43e3b9!2sJabalpur%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1633264234047!5m2!1sen!2sin"
+          style="filter: grayscale(1) contrast(1.2) opacity(0.4)"></iframe>
+      </div>
+      <div class="container px-5 py-24 mx-auto flex">
+        <div class="
              lg:w-1/3
              md:w-1/2
              bg-white
@@ -200,24 +141,17 @@
              relative
              z-10
              shadow-md
-           "
-         >
-           <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
-             Feedback
-           </h2>
-           <p class="leading-relaxed mb-5 text-gray-600">
-             Please give us your's beautiful feedback...
-           </p>
-           <form action="feedback.php" method="post">
-           <div class="relative mb-4">
-             <label for="email" class="leading-7 text-sm text-gray-600"
-               >Email</label
-             >
-             <input
-               type="email"
-               id="email"
-               name="email"
-               class="
+           ">
+          <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+            Feedback
+          </h2>
+          <p class="leading-relaxed mb-5 text-gray-600">
+            Please give us your's beautiful feedback...
+          </p>
+          <form action="feedback.php" method="post">
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="
                  w-full
                  bg-white
                  rounded
@@ -232,17 +166,11 @@
                  transition-colors
                  duration-200
                  ease-in-out
-               "
-             />
-           </div>
-           <div class="relative mb-4">
-             <label for="message" class="leading-7 text-sm text-gray-600"
-               >Feedback</label
-             >
-             <textarea
-               id="message"
-               name="feedback"
-               class="
+               " />
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">Feedback</label>
+              <textarea id="message" name="feedback" class="
                  w-full
                  bg-white
                  rounded
@@ -259,11 +187,9 @@
                  transition-colors
                  duration-200
                  ease-in-out
-               "
-             ></textarea>
-           </div>
-           <button
-             class="
+               "></textarea>
+            </div>
+            <button class="
                text-white
                bg-green-500
                border-0
@@ -273,16 +199,15 @@
                hover:bg-green-600
                rounded
                text-lg
-             "
-           >
-             Submit
-           </button>
-           <!--p class="text-xs text-gray-500 mt-3">
+             ">
+              Submit
+            </button>
+            <!--p class="text-xs text-gray-500 mt-3">
              Chicharrones blog helvetica normcore iceland tousled brook viral
              artisan.
            </p-->
-           </form>
-         </div>
-       </div>
-     </div>
-     </section>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
