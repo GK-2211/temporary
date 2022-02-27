@@ -13,8 +13,9 @@
   </head>
   
   <body>
-
-    <div style="background-color: #ffffff;" class="
+    
+    <header class="text-gray-600 body-font">
+      <div style="background-color: white;" class="
             container
             mx-auto
             flex flex-wrap
@@ -23,7 +24,7 @@
             md:flex-row
             items-center
           ">
-    <a class="
+        <a class="
               flex
               title-font
               font-medium
@@ -32,40 +33,38 @@
               mb-4
               md:mb-0
             ">
-      <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        class="w-20 h-20 text-white p-2  rounded-full" src="../assets/image/logo1.gif">
-
-
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 300 24">
-
-
-      </svg>
-
-      <span style="font-size: x-large; text-decoration: solid;font-family: 'Oswald', sans-serif;color: #000000;"
-        class="ml-3 text-xl">Triple Plug Share</span>
-    </a>
-    <nav class="
+          <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-20 h-20 text-white p-2  rounded-full" src="../assets/image/logo1.gif">
+  
+  
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
+  
+  
+          </svg>
+  
+          <span style="font-size: x-large; text-decoration: solid; font-family: Oswald;" class="ml-3 text-xl">Triple Plug
+            Share</span>
+        </a>
+        <nav class="
               md:ml-auto
               flex flex-wrap
               items-center
-              text-base  
+              text-base
               justify-center
-              
             ">
-      <a style="color: #000000;font-family: 'Nunito', sans-serif;" class="mr-5 hover:text-gray-900"
-        href="/home">Home</a>
-
-      <a style="color: #000000;font-family: 'Nunito', sans-serif;" class="mr-5 hover:text-gray-900"
-        href="/contact">Contact</a>
-
-      <a  style="color: #000000;" id="feedback" class="mr-5 hover:text-gray-900 nav-comp" (click)="onClick('div_feedback')">Feedback</a>
-
-    </nav>
-    <button type="button" class="btn btn-outline-dark btn-primary">
-      <a style="font-family: 'Nunito', sans-serif;" href="signup">Login/Sign Up</a>
-    </button>
-  </div>
+          <a class="mr-5 hover:text-gray-900 nav-comp" href="/home">Home</a>
+  
+          <a class="mr-5 hover:text-gray-900 nav-comp" href="/contact">Contact</a>
+          <a id="feedback" class="mr-5 hover:text-gray-900 nav-comp" (click)="onClick('div_feedback')">Feedback</a>
+        </nav>
+        <button type="button" class="btn btn-outline-success">
+          <a style="font-family: 'Nunito', sans-serif;" href="login">Login/Sign Up</a>
+        </button>
+  
+      </div>
+    </header>
+    
     <form action="">
       <div class="title">
         <h2>CONTACT US</h2>
