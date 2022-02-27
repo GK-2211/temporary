@@ -15,7 +15,7 @@
   <body>
     
     <header class="text-gray-600 body-font">
-      <div
+      <div style="background-color: #111827;"
         class="
           container
           mx-auto
@@ -63,7 +63,7 @@
 
           <span style="font-size: x-large; text-decoration: solid" class="ml-3 text-xl">Triple Plug Share</span>
         </a>
-        <nav
+        <nav 
           class="
             md:ml-auto
             flex flex-wrap
@@ -72,69 +72,15 @@
             justify-center
           "
         >
-          <a class="mr-5 hover:text-gray-900" href="/home" >Home</a>
-          <a class="mr-5 hover:text-gray-900" href="/about">About</a>
-          <a class="mr-5 hover:text-gray-900" href="/contact">Contact</a>
-          <a class="mr-5 hover:text-gray-900" style="cursor: pointer;" (click)="onClick('div_feedback')">Feedback</a>
+          <a style="color: #ffffff;" class="mr-5 hover:text-gray-900" href="/home" >Home</a>
+          <a  style="color: #ffffff;" class="mr-5 hover:text-gray-900" href="/about">About</a>
+          <a  style="color: #ffffff;" class="mr-5 hover:text-gray-900" href="/contact">Contact</a>
+          <a  style="color:white !important;" class="mr-5 hover:text-gray-900" style="cursor: pointer;" (click)="onClick('div_feedback')">Feedback</a>
         </nav>
-        <button
-          class="
-            inline-flex
-            items-center
-            bg-yellow-400
-            border-0
-            py-1
-            px-3
-            focus:outline-none
-            hover:bg-green-500
-            rounded
-            text-base
-            mt-4
-            md:mt-0
-          "
-        >
-          <!--svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="0"
-            class="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg-->
-          <a href="login">Login</a>
+        <button type="button" class="btn btn-outline-light">
+          <a href="login">Login/Sign Up</a>
         </button>
-        <button  id= "space"
-           class=" 
-           margin-left : 10px
-           inline-flex
-            items-center
-            bg-yellow-400
-            border-0
-            py-1
-            px-3
-            focus:outline-none
-            hover:bg-green-500
-            rounded
-            text-base
-            mt-4
-            md:mt-0
-          "        >
-          <!--svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="0"
-            class="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg-->
-          <a href="/signup">Register</a>
-        </button>
+        
       </div>
     </header>
 

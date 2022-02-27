@@ -266,3 +266,8 @@ button:focus {
     width: 345px;
   }
   
+  #feedback:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+  }
