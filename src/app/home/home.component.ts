@@ -11,6 +11,9 @@ export class HomeComponent implements OnInit {
   constructor(private viewportscroller : ViewportScroller) { }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      
+    },2000 );
   }
   onClick(id : string){
     this.viewportscroller.scrollToAnchor(id);
