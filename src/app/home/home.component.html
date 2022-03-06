@@ -8,6 +8,7 @@
   <title>EV Power Station</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
   <!--link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -55,7 +56,11 @@
         <a class="mr-5 hover:text-gray-900 nav-comp" href="/home">Home</a>
 
         <a class="mr-5 hover:text-gray-900 nav-comp" href="/contact">Contact</a>
+
+       
         <a id="feedback" class="mr-5 hover:text-gray-900 nav-comp" (click)="onClick('div_feedback')">Feedback</a>
+
+        <a class="mr-5 hover:text-gray-900 nav-comp" href="/book">Station Owner</a>
       </nav>
       <button type="button" class="btn btn-outline-success">
         <a style="font-family: 'Nunito', sans-serif;" href="login">Login/Sign Up</a>
@@ -92,7 +97,8 @@
             EV Charging
           </h1>
 
-          <div class="h-1 w-40 bg-green-500 rounded"></div>
+          
+          <div class="h-1 w-40 bg-green-500 rounded" data-aos="fade-up"></div>
         </div>
 
         <p class="
@@ -110,7 +116,8 @@
         </p>
       </div>
       <div class="flex flex-wrap -m-4">
-        <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4"data-aos="fade-left">
+        
           <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg" style="height: 420px;">
             <img class="h-40 rounded w-full object-cover object-center mb-6"
               src="../assets/image/global-electric-vehicles-green-car.jpg" alt="content" />
@@ -129,7 +136,7 @@
             </p>
           </div>
         </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4"data-aos="fade-down">
           <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg" style="height: 420px;">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="../assets/image/gas-vs-electric.png"
               alt="content" />
@@ -145,11 +152,11 @@
             <p class="leading-relaxed text-base">
               The cost of the electricity required
               to charge an EV is around 40% less than the cost to use petrol for a similar sized vehicle driving the
-              same distance1.
+              same distance.
             </p>
           </div>
         </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4"data-aos="fade-up">
           <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg" style="height: 420px;">
             <img class="h-40 rounded w-full object-cover object-center mb-6"
               src="../assets/image/New-GK-2018-Size-2.png" alt="content" />
@@ -169,7 +176,7 @@
             </p>
           </div>
         </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4"data-aos="fade-right">
           <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="../assets/image/TaxSavings.png"
               alt="content" />
@@ -229,7 +236,7 @@
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
             </div>
-            <div class="flex-grow pl-4">
+            <div class="flex-grow pl-4"data-aos="fade-in">
               <h2 class="
                     font-medium
                     title-font
@@ -282,7 +289,7 @@
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg>
             </div>
-            <div class="flex-grow pl-4">
+            <div class="flex-grow pl-4"data-aos="fade-in">
               <h2 class="
                     font-medium
                     title-font
@@ -337,7 +344,7 @@
                 <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
               </svg>
             </div>
-            <div class="flex-grow pl-4">
+            <div class="flex-grow pl-4"data-aos="fade-in">
               <h2 class="
                     font-medium
                     title-font
@@ -390,7 +397,7 @@
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>
             </div>
-            <div class="flex-grow pl-4">
+            <div class="flex-grow pl-4"data-aos="fade-in">
               <h2 class="
                     font-medium
                     title-font
@@ -437,7 +444,7 @@
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
             </div>
-            <div class="flex-grow pl-4">
+            <div class="flex-grow pl-4"data-aos="fade-in">
               <h2 class="
                     font-medium
                     title-font
@@ -472,7 +479,7 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117371.05679943635!2d79.89871232112424!3d23.175837426261996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae1a0fb6a97d%3A0x44020616bc43e3b9!2sJabalpur%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1633264234047!5m2!1sen!2sin"
           style="filter: grayscale(1) contrast(1.2) opacity(0.4)"></iframe>
       </div>
-      <div class="container px-5 py-24 mx-auto flex">
+      <div class="container px-5 py-24 mx-auto flex"data-aos="fade-right">
         <div class="
             lg:w-1/3
             md:w-1/2
@@ -562,15 +569,16 @@
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
         <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          class="w-20 h-20 text-white p-2  rounded-full" src="image/logo1.gif">
+        class="w-20 h-20 text-white p-2  rounded-full" src="../assets/image/logo1.gif">
 
         <span class="ml-3 text-xl">Triple Plug Share</span>
       </a>
 
       <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
         <a class="text-green-400">triple.plug.share@gmail.com</a>
-        <p class="leading-normal my-5">Jabalpur
-          <br>Madhya Pradesh, Bharat
+        <p style="margin-top: 0 !important;" class="leading-normal my-5">Jabalpur
+          <br>Madhya Pradesh, Bharat💖
+
         </p>
 
       </div>
@@ -616,6 +624,14 @@
     </div>
 
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration: 800,
+              offset: 200,
+              delay: 0,
+            });
+  </script>
 </body>
 
 </html>

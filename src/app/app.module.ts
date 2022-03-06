@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,10 @@ import { LoaderComponent } from './loader/loader.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { PopUpComponent } from './pop-up/pop-up.component';
+
+import {MatDialogModule} from '@angular/material/dialog';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -22,13 +28,17 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     LoginComponent,
     SignupComponent,
-    LoaderComponent
+    LoaderComponent,
+    PopUpComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
