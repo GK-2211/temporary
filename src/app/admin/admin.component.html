@@ -1,1 +1,146 @@
-<p>admin works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EV Power Station</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <!--link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+
+
+<header class="text-gray-600 body-font">
+    <div class="
+          container
+          mx-auto
+          flex flex-wrap
+         
+          flex-col
+          md:flex-row
+          items-center
+        ">
+      <a class="
+            flex
+            title-font
+            font-medium
+            items-center
+            text-gray-900
+            mb-4
+            md:mb-0
+          ">
+        <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-20 h-20 text-white p-2  rounded-full" src="../assets/image/logo1.gif">
+
+
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
+
+
+        </svg>
+
+        <span style="font-size: x-large; text-decoration: solid; font-family: Oswald;" class="ml-3 text-xl">Triple Plug
+          Share</span>
+      </a>
+      <nav class="
+            md:ml-auto
+            flex flex-wrap
+            items-center
+            text-base
+            justify-center
+          ">
+        <a class="mr-5 hover:text-gray-900 nav-comp" href="/home">Home</a>
+
+        <a class="mr-5 hover:text-gray-900 nav-comp" href="/contact">Contact</a>
+
+       
+       
+
+        <a class="mr-5 hover:text-gray-900 nav-comp" href="/book">Station Owner</a>
+      </nav>
+      <button type="button" class="btn btn-outline-success">
+        <a style="font-family: 'Nunito', sans-serif;" href="login">Login/Sign Up</a>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form style="padding: 80px; background-color: #020f24; color: #ffffff; height: 650px;" data-aos="fade-right">
+    <div class="form-row">
+        <form>
+            <div class="row">
+              <div class="col">
+                <label for="inputFname">First Name</label>
+                <input type="text" class="form-control" placeholder="First name" style="background-color: #020f24 ;color: #ffffff;">
+              </div>
+              <div class="col">
+                <label for="inputLname">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name" style="background-color: #020f24 ;color: #ffffff; ">
+              </div>
+            </div>
+          </form>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" style="background-color: #020f24 ;color: #ffffff; ">
+      </div>
+      
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" style="background-color: #020f24 ;color: #ffffff; ">
+    </div>
+    
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity" style="background-color: #020f24 ;color: #ffffff;" >
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <input type="text" class="form-control" id="inputCity" style="background-color: #020f24 ;color: #ffffff;" >
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip" style="background-color: #020f24 ;color: #ffffff; ">
+      </div>
+    </div>
+    <div class="mb-3">
+        <label for="validationTextarea">Textarea</label>
+        <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" style="background-color: #020f24 ;color: #ffffff; "></textarea>
+        <div class="invalid-feedback">
+          Please enter a message in the textarea.
+        </div>
+      </div>
+    
+      <div class="form-group">
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <p style="color: red;">*max size 10mb allowed</p>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+              I hereby declare that I have read all documents carefully and allow document entered by me is meeting all requirements.
+          </label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>

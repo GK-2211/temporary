@@ -18,7 +18,7 @@ const routes: Routes = [
   {path : 'signup' , component : SignupComponent},
   {path : 'loader' , component : LoaderComponent},
   {path : 'popup' , component : PopUpComponent},
-  {path : 'book' , component : AdminComponent}
+  {path : 'book' , component : AdminComponent},
 
 
 ];
